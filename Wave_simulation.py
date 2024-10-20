@@ -6,11 +6,11 @@ import matplotlib.animation as animation
 # Set up the domain, grid, and wave-equation parameters
 Lx, Ly = 10, 10
 Nx, Ny = 200, 200  
-dx, dy = Lx / (Nx - 1), Ly / (Ny - 1)
-dt = 0.01  # Smaller time step for smoother motion
+dx, dy = Lx / (Nx - 1), Ly / (Ny - 1) # spatial discretisation
+dt = 0.01  # time step
 T = 1
 Nt = int(T / dt)
-c = 2  # Slightly reduced wave speed for smoother propagation
+c = 2  
 
 
 # Courant-Friedrichs-Lewy (CFL) stability condition check 
