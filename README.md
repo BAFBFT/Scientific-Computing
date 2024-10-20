@@ -12,6 +12,10 @@ This project simulates the propagation of a wave over a 2D grid using the finite
 - Heatmap visualization of the wave propagation
 - Animation of the wave propagation
 
+## Output Plot
+Below is a gif showing the output from the simualtion.  
+![Output Plot](https://github.com/BAFBFT/Wave-equation-simulation/blob/main/wave_simulation.gif)
+
 ## Stability Condition
 
 The Courant-Friedrichs-Lewy (CFL) condition is enforced in this project to ensure the stability of the finite-difference method used. The CFL condition is checked in the code, and an assertion is made to prevent violation. [CFL condition](https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition)
